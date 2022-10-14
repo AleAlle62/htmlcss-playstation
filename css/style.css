@@ -59,7 +59,6 @@
 
 .container-4 {
     margin-top: 30px;
-    background-color: blue;
 }
 
 .container-4 img{
@@ -70,12 +69,10 @@
 
 .container-5 {
     margin-top: 100px;
-    background-color: green;
+
 }
 
-.container-5 h4 {
-    color: #328ed7 ;
-}
+
 
 .container-5 p {
     color: #727272;
@@ -83,35 +80,49 @@
 
 
 .container-6 {
-    background-color: yellow;
+    margin-top: 100px;
     display: flex;
 }
-
-.cont-6-sx {
-    background-color: #328ed7;
-    margin-top: 100px;
-}
-
-.cont-6-sx {
-    width: 50%;
-}
-
-
 
 
 .container-6 img {
     height: 400px;
 }
 
-.container-6 h2 {
-    text-align: center;
-}
-
-
-
-
-
 
 .container-7 img {
     height: 100px;
+}
+
+.container-8 {
+    margin-top: 100px;
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    height: 900px;
+    background-position: center;
+    display: flex;
+    color: white;
+}
+
+
+.container-8 img {
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.container-8-dentro {
+    margin-top: 200px;
+    margin-left: 50px ;
+    color: white;
+}
+
+.container-8-dentro p {
+    max-width: 350px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.container-8-dentro h2 {
+    max-width: 550px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
 }
