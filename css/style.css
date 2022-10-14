@@ -16,7 +16,8 @@
 }
 
 .container-1 img {
-    height: 20px; 
+    height: 100%;
+    max-height: 20px; 
     display: flex;
     justify-content: flex-end;
 }
@@ -43,6 +44,7 @@
 }
 
 .container-3 img {
+    height: 100%;
     max-height: 50px;
     margin-bottom: 30px;
 }
@@ -62,7 +64,8 @@
 }
 
 .container-4 img{
-    height: 100px;
+    height: 100%;
+    max-height: 100px;
     border-radius: 20px;
     margin: 5px;
 }
@@ -82,16 +85,20 @@
 .container-6 {
     margin-top: 100px;
     display: flex;
+    
 }
 
 
 .container-6 img {
-    height: 400px;
+    height: 100%;
+    max-height: 400px;
 }
 
 
+
 .container-7 img {
-    height: 100px;
+    height: 100%;
+    max-height: 100px;
 }
 
 .container-8 {
@@ -105,6 +112,7 @@
 
 
 .container-8 img {
+    height: 100%;
     max-height: 200px;
     margin-bottom: 20px;
 }
@@ -134,7 +142,8 @@
 }
 
 .container-9 img {
-    height: 200px;
+    height: 100%;
+    max-height: 200px;
 }
 
 .container-10 {
@@ -148,8 +157,42 @@
 
 
 .container-11 img {
-    height: 300px;
+    height: 100%;
+    max-height: 100px;
 }
 
 
 
+
+.container-12 {
+    margin-top: 100px;
+    background-color: #bebcbb ;
+    /* height: 900px; */
+    /* background-position: center; */
+    /* display: flex; */
+    color: white;
+    /* justify-content: center; */
+}
+
+
+.container-12 img {
+    height: 100%;
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+
+.container-12-dentro {
+    /* margin-top: 200px; */
+    margin-left: 50px ;
+}
+
+.container-12-dentro p {
+    max-width: 750px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.col .img-plus {
+    height: 100%;
+    max-height: 250px;
+}
