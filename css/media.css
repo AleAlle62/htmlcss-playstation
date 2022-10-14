@@ -1,0 +1,8 @@
+@media screen and (max-width: 991px) {
+    .container-4 img{
+        height: 130px;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    
+}
