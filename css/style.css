@@ -1,26 +1,45 @@
-/* * {
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-} */
 
-.section-1 {
-    background-color: black;
+
+body {
+	margin-top: 111px;
+	/* background-color: salmon; */
 }
 
-.container-1 {
-    display: flex;
-    justify-content: flex-end;
-    background-color: black;
+.bar-sony {
+	height: 35px;
 }
 
-.container-1 img {
-    height: 100%;
-    max-height: 50px; 
-    display: flex;
-    justify-content: flex-end;
+.dropdown {
+	position: static;
 }
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
+
+
 
 .container-2 a{
     color: black;
@@ -36,7 +55,6 @@
 }
 
 .container-3 {
-    margin-top: 100px;
     background-image: url(/img/jumbo-bg.png);
     height: 675px;
     background-position: center;
@@ -167,11 +185,7 @@
 .container-12 {
     margin-top: 100px;
     background-color: #bebcbb ;
-    /* height: 900px; */
-    /* background-position: center; */
-    /* display: flex; */
     color: white;
-    /* justify-content: center; */
 }
 
 
@@ -182,7 +196,6 @@
 }
 
 .container-12-dentro {
-    /* margin-top: 200px; */
     margin-left: 50px ;
 }
 
@@ -220,7 +233,6 @@
 }
 
 .container-13-dentro {
-    /* margin-top: 200px; */
     margin-left: 50px ;
 }
 

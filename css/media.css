@@ -22,3 +22,18 @@
 
 }
 
+
+
+@media screen and (max-width: 400px) {
+    .social {
+        display: none;
+    }
+
+    .container-12-dentro img{
+        height: 50px;
+    }
+
+    .container-13-dentro img {
+        height: 50px;
+    }
+}
