@@ -5,3 +5,21 @@
 }
 
 
+.container-4 img:hover {
+    scale: 1.1;
+    border: 3px solid blue;
+    rotate: 360deg;
+    transition: 1.3s;
+}
+
+
+.container-7 img:hover {
+    opacity: 1;
+    transition: 1.2s;
+    border-bottom: 3px solid #ff12fc;
+    padding: 5px;
+    margin: 5px 5px 0 0; 
+}
+
+
+
