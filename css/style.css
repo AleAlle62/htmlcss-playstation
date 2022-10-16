@@ -39,21 +39,14 @@ body {
 
 
 
-
-.container-2 a{
-    color: black;
-}
-
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color: #212529;
-}
-
-
 .navbar-toggler-icon {
     color: black;
 }
 
-.container-3 {
+
+
+
+.container-3{
     color: white;
     background-image: url(/img/jumbo-bg.png);
     height: 675px;

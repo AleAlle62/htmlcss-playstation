@@ -36,4 +36,23 @@
     .container-13-dentro img {
         height: 50px;
     }
+
+    .container-3 img {
+        display: none;
+    }
+
+    .rounded {
+        display: none;
+    }
+
+    .container-8 img {
+        display: none;
+    }
+
+    .sconti img{
+        display: none;
+    }
+
 }
+
+
