@@ -2,7 +2,6 @@
 
 body {
 	margin-top: 111px;
-	/* background-color: salmon; */
 }
 
 .bar-sony {
@@ -55,10 +54,12 @@ body {
 }
 
 .container-3 {
+    color: white;
     background-image: url(/img/jumbo-bg.png);
     height: 675px;
     background-position: center;
     display: flex;
+    width: 100%;
 }
 
 .container-3 img {
@@ -90,9 +91,7 @@ body {
 
 .container-5 {
     margin-top: 200px;
-
 }
-
 
 
 .container-5 p {
