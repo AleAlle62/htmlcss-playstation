@@ -6,9 +6,10 @@
 
 
 .container-4 img:hover {
-    scale: 1.1;
+    /* scale: 1.1; */
     border: 3px solid blue;
-    transition: 1.3s;
+    transition: 1.2s;
+    margin-top: 30px;
 }
 
 
@@ -18,6 +19,13 @@
     border-bottom: 3px solid #ff12fc;
     padding: 5px;
     margin: 5px 5px 0 0; 
+}
+
+.container-9 .col img:hover {
+    transition: 1.1s;
+    border: 2px solid blue;
+    margin-top: -10px;
+    border-radius: 20px;
 }
 
 
